@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hey Beautiful</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&family=Caveat:wght@600&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="main-content">
+
+    <header>
+        <h1>Hey Beautiful <span>💗</span></h1>
+        <p class="subtitle">Tumhare liye kuch special hai...</p>
+        <div class="arrow">↓</div>
+    </header>
+
+    <section class="gallery">
+
+        <div class="polaroid rotate-left">
+            <img src="images/photo1.jpg" alt="Photo 1">
+            <p>Bina makeup ke bhi itni sundar ho</p>
+        </div>
+
+        <div class="polaroid rotate-right">
+            <img src="images/photo2.jpg" alt="Photo 2">
+            <p>Bas ek haan ka intezaar hai,<br>Mere dil ko sirf tumse pyaar hai</p>
+        </div>
+
+        <div class="polaroid rotate-left-small">
+            <img src="images/photo3.jpg" alt="Photo 3">
+            <p>Jaadu teri nazar...</p>
+        </div>
+
+        <div class="polaroid rotate-right-small">
+            <div class="grid-photos">
+                <img src="images/grid1.jpg" alt="">
+                <img src="images/grid2.jpg" alt="">
+                <img src="images/grid3.jpg" alt="">
+                <img src="images/grid4.jpg" alt="">
+            </div>
+            <p>Tumhari muskurahat main aadat hai,<br>Tumhari khushi main shiddat hai</p>
+        </div>
+
+    </section>
+
+    <section class="proposal-container">
+        <h2>Will you go on a date with me? 🌹</h2>
+        <p>Kya tum mere saath date pe chalogi?</p>
+
+        <div class="buttons">
+            <button class="btn-yes" id="btn-yes">Haan Ji !</button>
+            <button class="btn-no" id="btn-no">Nahi</button>
+        </div>
+    </section>
+
+</div>
+
+<div id="success-screen">
+    <h1>Yayyyy!</h1>
+    <div class="heart-row">💖 💖 💖 💖 💖</div>
+    <p>You just made my day now let me make yours.</p>
+
+    <div class="pixel-art"></div>
+
+    <p class="final-text">See you soon! Can't wait!</p>
+    <button class="btn-close" onclick="location.reload()">Close</button>
+</div>
+
+<!-- External JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
